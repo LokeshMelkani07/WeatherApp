@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&family=Montserrat&family=Poppins&family=Spline+Sans+Mono&display=swap');
+
+/*
+font-family: 'Jost', sans-serif;
+
+font-family: 'Montserrat', sans-serif;
+
+font-family: 'Poppins', sans-serif;
+
+font-family: 'Spline Sans Mono', monospace; */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    /* background-image: url('./skyback.jpeg'); */
+    background-image: url('https://images.pexels.com/photos/956981/milky-way-starry-sky-night-sky-star-956981.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.box{
+    width: 50rem;
+    height: 45rem;
+    margin: 6rem auto;
+    background-color: #8fe0ff;
+    border: 0.2rem solid black;
+    border-radius: 1rem;
+    box-shadow: rgba(27, 31, 35, 0.04) 0px 1px 0px, rgba(255, 255, 255, 0.25) 0px 1px 0px inset;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-image: url('../css/sky.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 195px 0px;
+    width: 50rem;
+    height: 21rem;
+    border: 2px solid black;
+    background-image: url('../css/weather.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.6;
+    border-radius: 10px;
+}
+
+.info:hover{
+    opacity: 0.9;
+}
+
+.location{
+    font-size: 2rem;
+    margin-top: 70px;
+}
+
+.input{
+    text-align: center;
+    margin: 0.6rem 0;
+}
+
+.input input{
+    width: 30rem;
+    height: 3rem;
+    border: 0.1rem solid black;
+    border-radius: 0.5rem;
+    padding: 0.5rem 0.5rem;
+}
+
+.info h2{
+    text-transform:uppercase;
+}
+
+.info h3{
+    color: black;
+}
